@@ -25,7 +25,7 @@ infrastructure as code on AWS, and I write up each project so others can follow 
 
 ## 🚀 Projects
 
-### [AWS S3 Static Website with Terraform](https://github.com/ashwinikrishna2025-sketch/aws-s3-static-website)
+### [AWS S3 Static Website with Terraform](https://github.com/ashwinikrishna2025-sketch/terraform-aws-s3-website)
 Hosts a static website on Amazon S3, with every resource defined in Terraform.
 One command creates the whole site and another tears it down.
 **Stack:** Terraform · AWS S3 · IAM · HTML/CSS
