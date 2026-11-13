@@ -30,7 +30,13 @@ Hosts a static website on Amazon S3, with every resource defined in Terraform.
 One command creates the whole site and another tears it down.
 **Stack:** Terraform · AWS S3 · IAM · HTML/CSS
 
-*More projects coming soon. I'm adding containers and CI/CD next.*
+### [Service Status Board — a containerised Flask app](https://github.com/ashwinikrishna2025-sketch/docker-flask-status-board)
+A small Flask app wrapped in a container built properly: multi-stage build,
+non-root user, a real `HEALTHCHECK`, and gunicorn. CI builds the image, starts it,
+checks it actually serves traffic, and publishes it to GHCR.
+**Stack:** Docker · GitHub Actions · Python · Flask · gunicorn
+
+*Kubernetes is next.*
 
 ## 📈 GitHub stats
 
